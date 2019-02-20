@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   #项目名称
   s.name         = "TanColor"
   #项目版本号
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   #修改摘要文字
   s.summary      = "TanColor库"
   #详细描述，这里的文字数一定要大于上面的摘要文字数
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   #来源
   s.source       = { :git => "https://github.com/tanxinjun/TanColor.git", :tag => "#{s.version}" }
   #源文件，如果是一个文件，那就指向一个文件，如果是整个文件夹，则指向整个文件夹，下面我是一个文件
-  s.source_files  = "TanColor/Tan.swift"
+  s.source_files  = "TanColor"
   s.exclude_files = "TanColor/Exclude"
   #需要指定swift语言的版本号
   s.swift_version = '4.0'
