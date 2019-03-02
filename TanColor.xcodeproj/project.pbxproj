@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D92FAF22222A2137003A7763 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92FAF21222A2137003A7763 /* LocationManager.swift */; };
 		D948AB5F221D2E710082BCB6 /* TanXinJun.swift in Sources */ = {isa = PBXBuildFile; fileRef = D948AB5E221D2E710082BCB6 /* TanXinJun.swift */; };
 		D9FD73962213B2F5002118A7 /* Tan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD73952213B2F5002118A7 /* Tan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D92FAF21222A2137003A7763 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		D948AB5E221D2E710082BCB6 /* TanXinJun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanXinJun.swift; sourceTree = "<group>"; };
 		D9FD738A2213B2C4002118A7 /* TanColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TanColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FD738E2213B2C4002118A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 				D9FD738E2213B2C4002118A7 /* Info.plist */,
 				D9FD73952213B2F5002118A7 /* Tan.swift */,
 				D948AB5E221D2E710082BCB6 /* TanXinJun.swift */,
+				D92FAF21222A2137003A7763 /* LocationManager.swift */,
 			);
 			path = TanColor;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			files = (
 				D9FD73962213B2F5002118A7 /* Tan.swift in Sources */,
 				D948AB5F221D2E710082BCB6 /* TanXinJun.swift in Sources */,
+				D92FAF22222A2137003A7763 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
